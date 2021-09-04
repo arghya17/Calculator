@@ -12,9 +12,21 @@ function myFunction() {
 function answer() {
   try {
     sum = math.evaluate(sum);
+    sum = sum.toString();
     display();
-    sum = "";
   } catch {
     alert("Invalid Expression.Please enter expression carefully");
   }
+}
+function extract() {
+  if (sum.length == 0) {
+    alert("Please enter something before deleting");
+  } else {
+    sum = sum.substr(0, sum.length - 1);
+    display();
+  }
+}
+function remove_All() {
+  sum = "";
+  display();
 }
