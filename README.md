@@ -1,3 +1,3 @@
 # Calculator
 Online Calculator
-[Click here to lauch the calculator](https://arghya17.github.io/Calculator/)
+[Click here to launch the calculator](https://arghya17.github.io/Calculator/)
